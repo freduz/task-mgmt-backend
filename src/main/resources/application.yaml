@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://taskapp.crp8vcwiqrfw.us-east-1.rds.amazonaws.com:3306/taskapp_db
+    username: daniel
+    password: typedef#12
+  profiles:
+    active: prod
+
+app:
+  jwt-secret: c1e42c73d2caa6c479a3c2f568c77270aaa62c7ca642e29361bc82becb454e82
+  jwt-expiration-milliseconds: 604800000
